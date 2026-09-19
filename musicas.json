@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Tese 95 (Lutero)",
+        "artista": "João Manô",
+        "capa": "imagens/tese95Capa.jpg",
+        "musica": "musicas/Tese-95-_Lutero_.mp3"
+    },
+    {
+        "nome": "Que nem maré",
+        "artista": "Jorge Vercillo",
+        "capa": "imagens/queNemMareCapa.jpg",
+        "musica": "musicas/QueNemMareMusic.mp3"
+    },
+    {
+        "nome": "Monalisa",
+        "artista": "Jorge Vercillo",
+        "capa": "imagens/MonalisaCapa.jpg",
+        "musica": "musicas/MonalisaMusic.mp3"
+    },
+    {
+        "nome": "Me Faz Viver",
+        "artista": "Thalles Roberto",
+        "capa": "imagens/mefazCapa.jpg",
+        "musica": "musicas/MeFazViverMusic.mp3"
+    },
+    {
+        "nome": "Meu prazer",
+        "artista": "Felipe Rodrigues",
+        "capa": "imagens/meuPrazerCapa.jpg",
+        "musica": "musicas/MeuPrazerMusic.mp3"
+    },
+    {
+        "nome": "Feels",
+        "artista": "Calvin Harris",
+        "capa": "imagens/feelsCapa.jpg",
+        "musica": "musicas/FeelsMusic.mp3"
+    },
+    {
+        "nome": "Jus of Twou",
+        "artista": "Bill Withers",
+        "capa": "imagens/justofCapa.jpg",
+        "musica": "musicas/Just-of-twou.mp3"
+    },
+    {
+        "nome": "Lost in Paradise",
+        "artista": "The first take",
+        "capa": "imagens/lostnCapa.jpg",
+        "musica": "musicas/LostInParadise.mp3"
+    },
+    {
+        "nome": "Pasilyo",
+        "artista": "SunKissed Lola",
+        "capa": "imagens/PasilioCapa.jpg",
+        "musica": "musicas/Pasilyo.mp3"
+    },
+    {
+        "nome": "Get Luck",
+        "artista": "Daft Punk",
+        "capa": "imagens/GetLuckCapa.jpg",
+        "musica": "musicas/GetLuckMusic.mp3"
+    }
+]

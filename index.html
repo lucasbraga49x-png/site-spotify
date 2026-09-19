@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="campoSite">
+    <div class="CampoControle">
+    <div class="capaMusica" id="CapaMusicaSelecionada">
+        <img src="imagens/semiMAGEM.webp" alt="capaMusica">
+    </div>
+
+    <div class="controleAudio">
+        <div class="informacoes">
+            <h3 id="nomeMusicaSelecionada">Nome da musica</h3>
+            <span id="NomeArtistaSelecionado">Nome do artista</span>
+        </div>
+        <div class="controls">
+            <button id="btn-play" onclick="execultandoAudio()"><img src="imagens/playIcon.png" alt="icon" style="width: 24px; height: auto;"></button>
+            <div class="input">
+                <span id="tempoMusica">00:00</span>
+                <input type="range" id="TempoAtualMusica">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="titulo">
+        <h2>Selecione uma musica</h2>
+    </div>
+
+    <div class="MusicasContainer">
+         
+        
+    </div>
+    </div>
+</body>
+</html>

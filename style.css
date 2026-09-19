@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(5, 15, 23);
+    display: flex;   
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(80deg, rgb(10, 20, 43), rgb(2, 18, 35), rgb(2, 22, 41), rgb(6, 27, 45));
+    background-size: 400% 400%;
+    animation: animaFundo 15s ease infinite;
+}
+
+@keyframes animaFundo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.campoSite{
+    width: 50%;
+    min-height: 92%;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campoSite .CampoControle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.controleAudio{
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.254);
+    border-radius: 10px;
+    gap: 7px;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.controls button{
+    width: 32px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: transparent;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.controls button:hover img{
+    transform: scale(1.1);
+}
+
+.input{
+    width: 100%;
+    display: flex; 
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    width: 90%;
+}
+.controleAudio .informacoes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.controleAudio .informacoes span{
+    font-size: 12px;
+    color: aliceblue;
+}
+.campoSite .capaMusica{
+    width: 30%;
+    height: 100%;
+  
+}
+.campoSite .capaMusica img{
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    height: 100%;
+}
+.campoSite .titulo{
+   width: 100%;
+   display: flex;
+   text-align: left;
+}
+
+.campoSite .titulo h2, 
+.campoSite .CampoControle h3{
+   color: white;
+}
+
+.campoSite .MusicasContainer{
+   width: 100%;
+   overflow-y: scroll;
+   gap: 5px;
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+}
+
+.campoSite .MusicasContainer .musicaCard {
+    min-height: 70px; 
+    flex-shrink: 0; 
+    gap: 20px;
+    display: flex;
+    width: 98%;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+.musicaCard:hover{
+    background-color: rgba(9, 9, 9, 0.264);
+}
+
+.musicaCard .Capa{
+    width: 10%;
+    height: 100%;
+}
+.musicaCard .Capa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.musicaCard .informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.musicaCard .informacao h4, span{
+   color: white;
+}
+
+.musicaCard .informacao span{
+  margin-left: 7px;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #094f9f;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
