@@ -185,3 +185,11 @@ body{
   background: #555;
 }
 
+@media (max-width: 880px){
+   .campoSite{
+    width: 100%;
+   }
+   .CampoControle{
+    width: 100%;
+   }
+}
