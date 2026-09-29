@@ -1,0 +1,111 @@
+.divCadastro{
+    width: 50%;
+    min-height: 91vh;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+details {
+  background-color: #1e1e24;
+  color: #f1f1f1;
+  margin-bottom: auto;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 100%;
+  font-family: sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem;
+  user-select: none;
+}
+
+
+summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.75rem;
+  font-size: 0.8rem;
+  color: #55b6f7;
+}
+
+form {
+    width: 100%;
+    min-width: 300px; 
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 7px;
+    color: white;
+}
+
+form .titulo {
+    text-align: center;
+}
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form .inputs input {
+    width: 100%;
+    outline: none;
+    background-color: rgb(31, 30, 30);
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 8px; 
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+input::placeholder{
+    color: rgb(180, 182, 184);
+}
+
+input::file-selector-button{
+    background-color: rgb(43, 120, 236);
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    color: aliceblue;
+}
+
+form .inputs input:hover{
+    background-color: rgba(42, 43, 43, 0.658);
+}
+
+form .botoes {
+    display: flex;
+    gap: 10px;
+}
+
+form .botoes button {
+    flex: 1;
+    background-color: rgb(43, 120, 236);
+    border-radius: 3px;
+    border: none;
+    color: rgb(231, 227, 227);
+    padding: 10px;
+    cursor: pointer;
+}

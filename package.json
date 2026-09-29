@@ -1,0 +1,26 @@
+{
+  "name": "site-spotify",
+  "version": "1.0.0",
+  "description": "<a src=\"https://lucasbraga49x-png.github.io/site-spotify/\">Clica aquii</a>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbraga49x-png/site-spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucasbraga49x-png/site-spotify/issues"
+  },
+  "homepage": "https://github.com/lucasbraga49x-png/site-spotify#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}

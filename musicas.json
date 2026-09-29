@@ -58,5 +58,11 @@
         "artista": "Daft Punk",
         "capa": "imagens/GetLuckCapa.jpg",
         "musica": "musicas/GetLuckMusic.mp3"
+    },
+    {
+        "nome": "The Rumbling",
+        "artista": "SIM",
+        "capa": "imagens/1790690522765.jpg",
+        "musica": "musicas/1790690522766.mp3"
     }
 ]
