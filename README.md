@@ -1,3 +1,5 @@
 # site-spotify
-## Entre no site 
-<a src="https://lucasbraga49x-png.github.io/site-spotify/">Clica aquii</a>
+## Tutorial
+1. Faça o fork do repositorio
+2. Ligue o servidor no terminal CMD
+3. Apos isso use localhost:56611
