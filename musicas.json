@@ -64,5 +64,11 @@
         "artista": "SIM",
         "capa": "imagens/1790690522765.jpg",
         "musica": "musicas/1790690522766.mp3"
+    },
+    {
+        "nome": "Final feliz",
+        "artista": "Jorge Verccilo",
+        "capa": "imagens/1791248124768.jpg",
+        "musica": "musicas/1791248124775.mp3"
     }
 ]
